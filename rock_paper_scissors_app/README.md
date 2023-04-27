@@ -1,5 +1,5 @@
 ## Live Website Link
-[Click Here](https://gdev-movie-app.netlify.app/)
+[Click Here](https://gdev-rock-paper-scissors-game.netlify.app/)
 
 
 
