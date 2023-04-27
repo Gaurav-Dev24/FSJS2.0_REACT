@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+html{
+  font-size: 62.5%;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  background-color: #23C4ED;
+  font-family:  Georgia, Times, 'Times New Roman', serif;
+}
+
+.heading{
+  font-size: 5rem;
+  color: #242B2E;
+}
+
+.score{
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.choice{
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+.computer-hand{
+  width: 25rem;
+}
+
+.user-hand{
+  width: 25rem;
+  transform: rotateY(180deg);
+}
+
+.button-div{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.button{
+  width: 15rem;
+  height: 5rem;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #242B2E;
+  font-size: 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 3rem;
+  color: #ffff;
+}
+.button:hover{
+    background-color: #ffff;
+    color:#242B2E ;
+}
+
+.result {
+  padding: 50px;
+}
